@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+
 }
 
 :root {
@@ -9,7 +9,7 @@
 
 body {
     font-size: 1.6rem;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +18,9 @@ body {
     background-repeat: repeat;
     background-size: contain;
 
-    
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgb(255,255,255,0.5)), url(./bg.jpg);
-    
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)), url(./bg.jpg);
+
 
 }
 
@@ -30,28 +30,30 @@ h1 {
     padding: 1rem;
     width: 50%;
     text-align: center;
-    background-color: rgba(244,217,171,0.9);
+    background-color: rgba(244, 217, 171, 0.9);
     font-family: 'Architects Daughter', cursive;
 }
+
 h3 {
-   color: #333;
+    color: #333;
 }
 
 .container {
-    background: rgb(244,217,171);
-background: radial-gradient(circle, rgba(244,217,171,1) 0%, rgba(245,121,95,1) 100%);
+    background: rgb(244, 217, 171);
+    background: radial-gradient(circle, rgba(244, 217, 171, 1) 0%, rgba(245, 121, 95, 1) 100%);
     text-align: center;
-    width: 50%;
+    width: 95rem;
     font-size: 1.8rem;
     font-family: 'Architects Daughter', cursive;
     border: solid 3px tomato;
-    
+
 }
+
 .inputs {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 }
 
 input {
@@ -60,13 +62,13 @@ input {
     color: tomato;
     font-weight: bold;
     border-radius: 2rem;
-       
+
 }
 
-input::placeholder{
+input::placeholder {
     color: #e49787;
     font-weight: lighter;
-    
+
 }
 
 .radios {
@@ -76,12 +78,13 @@ input::placeholder{
     gap: 5rem;
 }
 
-#weiblich, #männlich {
+#weiblich,
+#männlich {
     accent-color: coral;
-    height:2rem; 
-    width:2rem; 
+    height: 2rem;
+    width: 2rem;
     vertical-align: middle;
-    
+
 }
 
 
@@ -105,14 +108,14 @@ button:hover {
     box-shadow: none;
     border: solid 2px #f4d9ab;
     color: #f4d9ab;
- 
-  
+
+
 }
 
 
 /* Wird sich nur zeigen, wenn wir calcBMI on click durchführen */
 
-.show{
+.show {
     font-size: 2.5rem;
     padding: 1.5rem;
     width: 50%;
@@ -123,4 +126,3 @@ button:hover {
 
     border: solid 2px orange;
 }
-
