@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+
+    
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgb(255,255,255,0.5)), url(./bg.jpg);
+    
+
+}
+
+h1 {
+    color: #ff6138;
+    border: solid 3px coral;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(244,217,171,0.9);
+    font-family: 'Architects Daughter', cursive;
+}
+h3 {
+   color: #333;
+}
+
+.container {
+    background: rgb(244,217,171);
+background: radial-gradient(circle, rgba(244,217,171,1) 0%, rgba(245,121,95,1) 100%);
+    text-align: center;
+    width: 50%;
+    font-size: 1.8rem;
+    font-family: 'Architects Daughter', cursive;
+    border: solid 3px tomato;
+    
+}
+
+input {
+    padding: .5rem;
+    font-size: 2rem;
+    color: tomato;
+    font-weight: bold;
+    border-radius: 2rem;
+    
+    
+}
+
+input::placeholder{
+    color: #e49787;
+    font-weight: lighter;
+    
+}
+
+.radios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+#weiblich, #männlich {
+    accent-color: coral;
+    height:2rem; 
+    width:2rem; 
+    vertical-align: middle;
+    
+}
+
+
+button {
+    padding: 1rem;
+    width: 14rem;
+    border: 2px solid #f5795f;
+    color: brown;
+    font-weight: bolder;
+    font-size: 1.7rem;
+
+    border-radius: 50px;
+    background: #f4d9ab;
+}
+
+
+button:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background: brown;
+    box-shadow: none;
+    border: solid 2px #f4d9ab;
+    color: #f4d9ab;
+ 
+  
+}
+
+
+/* Wird sich nur zeigen, wenn wir calcBMI on click durchführen */
+
+.show{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    background-color: #FFE162;
+
+    border: solid 2px orange;
+}
+

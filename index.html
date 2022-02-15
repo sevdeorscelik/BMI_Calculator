@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>BMI Rechner</h1>
+    <div class="container">
+
+        <div class="inputs">
+            <h3>Körpergewicht</h3>
+            <input id="gewicht" type="number" placeholder=" in kg, z.B. 80" value="">
+
+            <h3>Körpergröße</h3>
+            <input id="größe" type="number" placeholder=" in cm, z.B. 180" value="">
+
+            <h3>Alter</h3>
+            <input id="alter" type="number" placeholder=" in Jahre, z.B. 30" value="">
+
+        </div>
+
+        <br>
+
+        <div class="radios">
+            <span>
+                <h3>Weiblich</h3>
+                <input id="weiblich" name="geschlecht" type="radio" value="weiblich" checked >
+            </span>
+            <span>
+                <h3>Männlich</h3>
+                <input id="männlich" name="geschlecht" type="radio" value="männlich" >
+            </span>
+
+        </div>
+
+        <br>
+
+        <div class="buttons">
+            <button onClick="calcBMI()"> Ergebnis </button>
+            <button onClick="window.location.reload()"> Löschen</button>
+        </div>
+        <br>
+
+    </div>
+    <p id="ergebnisBMI"></p>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
