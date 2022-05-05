@@ -1,3 +1,5 @@
-# Let's calculate your body mass index now: [click](https://sevdeorscelik.github.io/BMI_Calculator/)
+# Let's calculate your body mass index now !
 
-[Link von meiner Seite]( https://sevdeorscelik.github.io/Homes-fromMisHa/)
+[click](https://sevdeorscelik.github.io/BMI_Calculator/)
+
+
